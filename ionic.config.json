@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-ios-keyboard-scrolling-bug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
