@@ -1,17 +1,41 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-searchbar></ion-searchbar>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [scrollEvents]="true" (ionScrollStart)="scrollStart()">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend libero magna, in cursus risus blandit a.
+    Mauris quis nunc nec neque rutrum maximus vitae ut purus. Integer eget bibendum sapien, in iaculis justo. Vivamus
+    condimentum malesuada eros et faucibus. Phasellus eget auctor lacus. Aenean cursus eleifend arcu. Morbi sed velit
+    quis ante porttitor facilisis. Morbi a vulputate tortor. Vestibulum ante ipsum primis in faucibus orci luctus et
+    ultrices posuere cubilia curae</p>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <p>Ut ultrices tortor id mauris rutrum, a venenatis nulla hendrerit. Cras ultrices iaculis gravida. Suspendisse commodo
+    lacus non dolor auctor fringilla. Quisque suscipit, sem finibus vulputate hendrerit, velit urna iaculis mauris, sit
+    amet congue turpis magna eget lorem. Sed rhoncus malesuada condimentum. Proin imperdiet nulla ex, at elementum
+    lectus fringilla in. Curabitur nulla eros, ornare eu euismod nec, tincidunt id leo. Aliquam molestie augue eu
+    tincidunt condimentum. Aenean bibendum massa id molestie pretium. Aliquam malesuada lobortis neque, nec vehicula
+    augue lacinia efficitur. Etiam non luctus orci, nec placerat lectus. Aliquam id mauris neque.</p>
+
+    <p>Aliquam nec molestie risus. Pellentesque ut ligula vitae lorem ultricies posuere aliquet nec orci. Suspendisse
+    convallis lacus id commodo dapibus. Nullam tincidunt nulla in euismod eleifend. Fusce efficitur ac sapien lobortis
+    rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut mattis ipsum vel
+    ex semper rhoncus. Vivamus eu felis at mi rhoncus ultricies sed vitae lacus. In ut aliquet nisi, eget suscipit
+    libero. Vestibulum sollicitudin arcu quis velit imperdiet, sit amet fringilla ex imperdiet. Vivamus eu suscipit sem.
+    Praesent nec bibendum est. Integer quis condimentum mi, eu aliquet purus. Nunc faucibus vitae nisi nec fermentum.</p>
+
+    <p>Duis feugiat ultrices porttitor. Vivamus sed facilisis lacus. Ut rhoncus non leo eget porttitor. Curabitur eleifend
+    consequat risus aliquet euismod. Fusce aliquet convallis convallis. Sed rutrum sem iaculis malesuada tempor.
+    Maecenas condimentum id nibh malesuada sollicitudin. Nulla pretium est quis tincidunt auctor. Suspendisse ac
+    elementum lectus. Curabitur eu enim ut lorem tempus fermentum. Etiam accumsan congue vulputate. Pellentesque rutrum
+    aliquam felis, sed posuere dui lacinia id.</p>
+
+    <p>Proin ut enim ligula. Maecenas nec sem a justo auctor consequat. Vivamus lacinia varius faucibus. Sed ut lectus
+    luctus, facilisis ipsum quis, bibendum ipsum. Nulla euismod eros a lacus tempus gravida vitae ac quam. Nunc
+    sollicitudin quam porttitor pellentesque porttitor. Proin malesuada eros sed lorem facilisis congue. Phasellus nisi
+    odio, laoreet sed orci in, pulvinar elementum enim. Fusce accumsan malesuada libero, vel feugiat tellus aliquam non.
+    Sed bibendum mi accumsan porttitor tempor. Donec eget tortor vitae nisl tristique pretium. In lobortis consectetur
+    nisi in hendrerit. Praesent a feugiat ligula. Phasellus nec risus in erat auctor sodales vel ac risus. Donec commodo
+    molestie tincidunt. Nunc vel nunc nec massa vestibulum dignissim.</p>
 </ion-content>
